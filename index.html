@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#020817" />
+    <meta name="description" content="Thalvern Advisory is a premier executive search and leadership advisory firm specializing in confidential board mandates, C-suite recruitment, and senior executive placement." />
+    <meta property="og:title" content="Thalvern Advisory | Executive Search & Leadership Advisory" />
+    <meta property="og:description" content="Thalvern Advisory is a premier executive search and leadership advisory firm specializing in confidential board mandates, C-suite recruitment, and senior executive placement." />
+    <meta property="og:image" content="./assets/og-banner.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Thalvern Advisory | Executive Search & Leadership Advisory" />
+    <meta name="twitter:description" content="Thalvern Advisory is a premier executive search and leadership advisory firm specializing in confidential board mandates, C-suite recruitment, and senior executive placement." />
+    <meta name="twitter:image" content="./assets/og-banner.png" />
+    <title>Thalvern Advisory | Executive Search & Leadership Advisory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0b1020',
+                blue: '#13233d',
+                ink: '#dfe7ff',
+                glow: '#7dd3fc',
+                violet: '#6d7cff',
+                rose: '#ff7a8a',
+                gold: '#f9c74f',
+                panel: '#111827',
+                mist: '#edf6ff'
+              }
+            },
+            boxShadow: {
+              glow: '0 0 30px rgba(125, 211, 252, 0.35)',
+              strong: '0 25px 80px rgba(3,7,18,0.55)'
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif']
+            }
+          }
+        }
+      };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-slate-950 text-white antialiased">
+    <div id="root"></div>
+
+    <script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.26.0/babel.min.js"></script>
+    <script type="text/babel" src="app.js"></script>
+  </body>
+</html>
